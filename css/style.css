@@ -1,0 +1,320 @@
+@font-face{
+    src: url(fonts/Poppins-Regular.otf);
+    
+}
+@font-face{
+    src: url(fonts/Roboto-Regular.ttf);
+    
+}
+
+
+
+/*common start*/
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #888888;
+	line-height: 26px;
+    
+}
+
+
+/*common end*/
+/*header start*/
+
+header{
+    padding: 20px 0;
+	background-color: #f7f7f7;
+}
+
+
+.menu ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #323541 !important;
+    padding: 0 20px !important;
+	transition: .3s;
+    }
+
+.menu ul li a:hover{
+     color: #ff7214!important;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+    background-color: #f7f7f7;
+    padding: 35px 0 65px;
+}
+.b_text{
+   
+}
+.b_orng{
+	font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+	font-size: 18px;
+	color: #ff7214;
+}
+
+.b_h1{
+	font-family: 'Poppins', sans-serif;
+    padding-right: 20px;
+    margin: 20px 0;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #112e41;
+}
+.b_black{
+	padding: 10px 0 50px;
+}
+
+
+
+.b_img{}
+.b_img img{}
+.btn-signin{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    line-height: 20px;
+    padding: 17px 25px;
+    background-color: #ff7214;
+    border: 0;
+    border-radius: 30px;
+      
+}
+.btn-signin:hover{
+     background-color: #fafafa !important;
+     color: #333;
+}
+/*banner end*/
+
+/*about start*/
+.about{
+	padding: 100px 0;
+}
+.about-img-group {
+  position: relative;
+}
+
+.about-img-group .about-img-bg {
+  position: absolute;
+  left: 50%;
+  top: 30px;
+  max-width: 545px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.about-img-group .about-img-1 {
+  margin-top: 80px;
+	position: relative;
+}
+.about-img-group .about-img-2 {
+  margin-bottom: 60px;
+	position: relative;
+}
+
+.about-img-group h3{
+	font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+	font-size: 42px;
+	color: #233646;
+	position: relative;
+}
+.about_txt{
+	padding: 0 60px;
+	margin-right: 90px;
+}
+.ab_p{
+	font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+	font-size: 14px;
+	margin-bottom: 25px;
+	color: #ff7214;
+	text-transform: uppercase;
+}
+.ab_h2{
+	font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+	color: #112e41;
+	
+}
+.ab_h5{
+	font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+	color: #112e41;
+	padding: 8px 0;
+	
+}
+.ab_txt{
+	margin-bottom: 40px;
+	
+}
+.about_txt a i{
+	padding-top: 7px;
+}
+/*about end*/
+/*feature start*/
+.feature{
+	padding-bottom: 100px;
+}
+.c_title{}
+.fs_item{
+	margin-top: 80px;
+	border: 5px solid #f6f7fb; 
+	border-radius: 5px;
+	padding: 40px 50px;
+	transition: all 300ms ease-in-out;
+}
+.fs_item:hover{
+	border-color: transparent;
+	box-shadow: 0 0 10px rgb(0 0 0 / 7%);
+}
+.fs_icon{
+	
+}
+.fs_item h2{
+	font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+	font-size: 22px;
+	color: #112e41;
+	padding: 25px 0;
+}
+.fs_item p{
+	
+}
+
+/*feature end*/
+/*recent work start*/
+.w_item{
+	
+}
+.w_wrap{
+	margin-top: 80px;
+}
+.w_txt{
+	line-height: 28px;
+    padding: 0 60px 0 205px;
+}
+.w_txt2{
+	padding: 0 200px 0 80px;
+}
+.w_txt h2{
+	font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+	color: #112e41;
+}
+.p2{
+	margin: 35px 0;
+}
+.w_img{}
+.w_btn{
+	
+}
+.w_btn a {
+	text-decoration: none;
+	color: #112e41;
+	transition: .3s;
+
+}
+.w_btn a:hover{
+	
+	color: #ff7214!important;
+}
+
+.w_btn a i{
+	
+}
+/*recent work end*/
+
+/*activity start*/
+
+.activity{
+	background-color: #162b45;
+	margin: 100px 0;
+}
+
+.a_wrap{
+	padding: 70px 30px;
+}
+.a_item{}
+.a_icon{
+	max-width: 65px;
+    margin-bottom: 30px;
+}
+.a_txt{
+	color: #fafafa;
+	padding-right: 65px;
+}
+.a_txt p{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+		
+    align-items: center;
+	display: inline-flex;
+	    line-height: 30px;
+    margin-bottom: 0;
+	position: relative;
+	
+}
+.a_txt p span{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 60px;
+	 margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*activity end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
