@@ -201,10 +201,10 @@ header{
 }
 .w_txt{
 	line-height: 28px;
-    padding: 0 60px 0 205px;
+    padding: 0 60px 0 150px;
 }
 .w_txt2{
-	padding: 0 200px 0 80px;
+	padding: 0 150px 0 60px;
 }
 .w_txt h2{
 	font-family: 'Poppins', sans-serif;

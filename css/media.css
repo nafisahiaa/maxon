@@ -483,11 +483,11 @@ font-size: 19px;
 		font-size: 38px;
 	}
 	.w_txt {
-   
-    padding: 0 60px 0 130px;
+    line-height: 25px;
+    padding: 0 0px 0 40px;
 }
 	.w_txt2 {
-    padding: 0px 130px 0 60px;
+    padding: 0px 40px 0 0px;
 }
 	/*work*/
 	.w_txt h2{
@@ -524,6 +524,13 @@ font-size: 19px;
 
 /*Extra Large devices (desktops, 1200px and up)*/
 @media (min-width: 1200px) and (max-width: 1399.98px) { 
+		.w_txt {
+    line-height: 25px;
+    padding: 0 0px 0 40px;
+}
+	.w_txt2 {
+    padding: 0px 40px 0 0px;
+}
 	.fs_item{
 		    padding: 40px 40px;
 	}
