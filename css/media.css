@@ -376,6 +376,10 @@ font-size: 19px;
 	.feature {
     padding-bottom: 80px;
 }
+		.fs_item{
+		padding: 30px 20px;
+	
+}
 	/*work*/
 	.w_txt {
     line-height: 25px;
@@ -472,7 +476,7 @@ font-size: 19px;
 	}
 	/*feature*/
 	.fs_item{
-		padding: 30px 42px;
+		padding: 30px 20px;
 	
 }
 	.ab_h2{
@@ -513,7 +517,9 @@ font-size: 19px;
 
 /*Extra Large devices (desktops, 1200px and up)*/
 @media (min-width: 1200px) and (max-width: 1399.98px) { 
-
+	.fs_item{
+		    padding: 40px 40px;
+	}
 }
 
 /*Extra extra large devices (large desktops, 1400px and up)*/
