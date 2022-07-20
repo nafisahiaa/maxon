@@ -2,23 +2,513 @@
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
+/*header*/
+	.logo{
+		width: 90px;
+		height: auto;
+	}
+	.menu ul li a {
+		padding: 0 15px;
+	}
+	/*bannar*/
+	.banner{
+		padding: 35px 0 60px;
+	}
+	.b_text {
+    padding: 20px 0;
+}
+	.b_h1{
+		 font-size: 35px;
+		line-height: 50px;
+	}
+	.b_black {
+    padding: 10px 0 40px;
+}
+	.btn-signin{
+		    padding: 12px 18px;
+	}
+	/*about*/
+	.about {
+    padding: 60px 0;
+}
+	.about-img-group .about-img-bg{
+		max-width: 315px;
+	}
+	.about-img-group h3{
+		font-size: 22px;
+	}
+	.ab_h2{
+		font-size: 25px;
+	}
+	.ab_h5{
+		font-size: 18px;
+		padding: 15px 0;
+	}
+	.about_txt {
+		text-align: center;
+    padding: 50px 0px;
+		margin: 0;
+}
+	/*feature*/
+	
+	.feature {
+    padding-bottom: 60px;
+}
+	.fs_item {
+    margin-top: 60px;
+  
+    padding: 20px 15px;
+	}
+	.w_wrap {
+    margin-top: 60px;
+}
+	/*work*/
+	.w_txt {
+    line-height: 25px;
+    padding: 30px 0;
+}
+	.w_txt2 {
+    padding: 30px 0;
+}
+	.w_txt h2{
+		font-size: 25px;
+	}
+	
+	/*activity*/
+	.activity{
+		margin: 60px 0;
+	}
+	.a_wrap {
+		
+    padding: 30px 30px;
+    justify-content: center;
+    display: flex;
+}
+	
+    
+	.a_txt{
+		padding: 0;
+		text-align: center;
+	}
+	.a_icon {
+		
+    max-width: 50px;
+		margin-bottom: 25px;
+	}
+	.a_txt p span {
+		font-size: 40px;
+	}
+	.a_txt p{
+		font-size: 15px;
+	}
+	/*testimonial*/
+	.t_img{
+		width: 100px;
+		height: 100px;
+			
+	}
+	.t_text p {
+    font-size: 16px;
+    padding: 25px 0;
+	}
+	.test_wrap {
+    padding: 60px 0;
+}
+	.t_wrap {
+    padding: 20px 40px;
+}
 
+
+	/*team*/
+	.team_member {
+    margin: 40px 0px;
+    padding: 18px 18px;
+}
+	/*news*/
+.news_item {
+    
+    margin: 40px 0px;
+}
+.n_txt h5 a {
+font-size: 19px;
+}
+.n_txt {
+    padding: 35px 18px;
+}
+	meta-tag a {
+		padding: 0 10px;
+	}
+	/*contact*/
+	.contact {
+    padding: 20px 8px;
+}
+	.c{
+		text-align: center;
+	}
+	
+	.con_h2 {
+    
+    font-size: 30px
+	}
+	.con-info {
+    padding: 45px 0;
+}
+	.con-info a img {
+    
+    height: 22px;
+    width: 22px;
+    margin-right: 10px;
+	}
+	/*partners*/
+	.p_img img{
+		width: 100px;
+		height: auto;
+	}
+		/*footer*/
+	.footer_top {
+    padding: 65px 0;
+	}
+	.copyright{
+		font-size: 14px;
+	}
+	.foot{
+		text-align: center;
+	}
+
+	.f_tit{
+	padding: 35px;
+	
+}
+	.f2 ul li{
+	margin-bottom: 3px;
+}
+	.f3 img {
+    height: 75px;
+    width: 85px;
+}
+.f4 a {
+    padding: 3px 0;
+	}
 }
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
+/*header*/
+	.menu ul li a {
+		padding: 0 15px;
+	}
+	/*bannar*/
+	.banner{
+		padding: 35px 0 60px;
+	}
+	.b_text {
+    padding: 20px 0;
+}
+	.b_h1{
+		 font-size: 42px;
+		line-height: 60px;
+	}
+	.b_black {
+    padding: 10px 0 40px;
+}
+	.btn-signin{
+		    padding: 12px 18px;
+	}
+	/*about*/
+	.about {
+    padding: 60px 0;
+}
+	.about-img-group h3{
+		font-size: 35px;
+	}
+	.ab_h2{
+		font-size: 30px;
+	}
+	.ab_h5{
+		font-size: 18px;
+	}
+	.about_txt {
+    padding: 50px 10px;
+}
+	/*feature*/
+	
+	.feature {
+    padding-bottom: 60px;
+}
+	.fs_item {
+    margin-top: 60px;
+  
+    padding: 20px 15px;
+	}
+	.w_wrap {
+    margin-top: 60px;
+}
+	/*work*/
+	.w_txt {
+    line-height: 25px;
+    padding: 30px 0;
+}
+	.w_txt2 {
+    padding: 30px 0;
+}
+	.w_txt h2{
+		font-size: 25px;
+	}
+	
+	/*activity*/
+	.activity{
+		margin: 60px 0;
+	}
+	.a_wrap {
+    padding: 50px 40px;
+}
+	.a_icon {
+    max-width: 50px;
+		margin-bottom: 25px;
+	}
+	.a_txt p span {
+		font-size: 40px;
+	}
+	.a_txt p{
+		font-size: 15px;
+	}
+	/*testimonial*/
+	.t_img{
+		width: 100px;
+		height: 100px;
+			
+	}
+	.t_text p {
+    font-size: 16px;
+    padding: 25px 0;
+	}
+	.test_wrap {
+    padding: 65px 0;
+}
+	.t_wrap {
+    padding: 20px 40px;
+}
 
 
+	/*team*/
+	.team_member {
+    margin: 60px 40px;
+    padding: 18px 18px;
+}
+	/*news*/
+.news_item {
+    
+    margin: 40px 40px;
+}
+.n_txt h5 a {
+font-size: 19px;
+}
+.n_txt {
+    padding: 35px 18px;
+}
+	meta-tag a {
+		padding: 0 10px;
+	}
+	/*contact*/
+	.con_h2 {
+    
+    font-size: 35px
+	}
+	.con-info {
+    padding: 45px 0;
+}
+	.con-info a img {
+    
+    height: 22px;
+    width: 22px;
+    margin-right: 10px;
+	}
+		/*footer*/
+	.foot{
+		text-align: center;
+	}
+
+	.f_tit{
+	padding-bottom: 15px;
+	
+}
+	.f2 ul li{
+	margin-bottom: 3px;
+}
+	.f3 img {
+    height: 70px;
+    width: 75px;
+}
+.f4 a {
+    padding: 3px 0;
+	}
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
 
+	/*header*/
+	.menu ul li a {
+		padding: 0 15px;
+	}
+	/*bannar*/
+	.b_h1{
+		 font-size: 50px;
+		line-height: 65px;
+	}
+	.b_black {
+    padding: 10px 0 40px;
+}
+	.btn-signin{
+		    padding: 15px 20px;
+	}
+	/*about*/
+	.about {
+    padding: 80px 0;
+}
+	.ab_h2{
+		font-size: 35px;
+	}
+	.about_txt {
+    padding: 20px 60px;
+	}
+	/*feature*/
+	.feature {
+    padding-bottom: 80px;
+}
+	/*work*/
+	.w_txt {
+    line-height: 25px;
+    padding: 0 50px 0 80px;
+}
+	.w_txt2 {
+    padding: 0px 90px 0 60px;
+}
+	.w_txt h2{
+		font-size: 25px;
+	}
+	
+	/*activity*/
+	.activity{
+		margin: 80px 0;
+	}
+	.a_icon {
+    max-width: 50px;
+		margin-bottom: 25px;
+	}
+	.a_txt p span {
+		font-size: 40px;
+	}
+	.a_txt p{
+		font-size: 15px;
+	}
+	/*testimonial*/
+	.t_img{
+		width: 100px;
+		height: 100px;
+			
+	}
+	.t_text p {
+    font-size: 16px;
+    padding: 25px 0;
+	}
+	.test_wrap{
+		align-items: center;
+	}
+	/*team*/
+	.team_member {
+    margin: 60px 0;
+    padding: 18px 18px;
+}
+	/*news*/
+.news_item {
+    
+    margin: 50px 0px;
+}
+.n_txt h5 a {
+font-size: 19px;
+}
+.n_txt {
+    padding: 35px 18px;
+}
+	meta-tag a {
+		padding: 0 10px;
+	}
+	/*contact*/
+	.con_h2 {
+    
+    font-size: 35px
+	}
+	.con-info {
+    padding: 45px 0;
+}
+	.con-info a img {
+    
+    height: 22px;
+    width: 22px;
+    margin-right: 10px;
+	}
+		/*footer*/
+	.foot{
+		text-align: center;
+	}
+
+	.f_tit{
+	padding: 15px 0;
+	
+}
+	.f3 img {
+    height: 70px;
+    width: 60px;
+}
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-
+/*bannar*/
+	.b_h1{
+		 font-size: 50px;
+		line-height: 65px;
+	}
+	/*feature*/
+	.fs_item{
+		padding: 30px 42px;
+	
+}
+	.ab_h2{
+		font-size: 38px;
+	}
+	/*work*/
+	.w_txt h2{
+		font-size: 25px;
+	}
+	/*activity*/
+	.a_txt p span {
+		font-size: 55px;
+	}
+	/*testimonial*/
+	.t_img{
+		width: 100px;
+		height: 100px;
+			
+	}
+	.t_text p {
+    font-size: 20px;
+    padding: 25px 0;
+	}
+	.test_wrap{
+		align-items: center;
+	}
+	/*team*/
+	.team_member{
+		    padding: 30px 34px;
+	}
+	/*footer*/
+	.f3 img {
+    height: 70px;
+    width: 60px;
+}
+	
 }
 
 /*Extra Large devices (desktops, 1200px and up)*/
