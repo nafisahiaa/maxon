@@ -383,10 +383,10 @@ font-size: 19px;
 	/*work*/
 	.w_txt {
     line-height: 25px;
-    padding: 0 50px 0 80px;
+    padding: 0 50px 0 10px;
 }
 	.w_txt2 {
-    padding: 0px 90px 0 60px;
+    padding: 0px 10px 0 50px;
 }
 	.w_txt h2{
 		font-size: 25px;
@@ -462,8 +462,8 @@ font-size: 19px;
 	
 }
 	.f3 img {
-    height: 70px;
-    width: 60px;
+    height: 80px;
+    width: 85px;
 }
 }
 
@@ -482,6 +482,13 @@ font-size: 19px;
 	.ab_h2{
 		font-size: 38px;
 	}
+	.w_txt {
+   
+    padding: 0 60px 0 130px;
+}
+	.w_txt2 {
+    padding: 0px 130px 0 60px;
+}
 	/*work*/
 	.w_txt h2{
 		font-size: 25px;
